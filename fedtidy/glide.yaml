@@ -1,0 +1,12 @@
+package: github.com/madhusudancs/fedtidy
+import:
+- package: github.com/Sirupsen/logrus
+  version: ^0.11.5
+- package: github.com/spf13/pflag
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/api
+  subpackages:
+  - compute/v1
+  - dns/v1
